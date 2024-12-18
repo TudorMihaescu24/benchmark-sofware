@@ -1,0 +1,9 @@
+﻿<Application x:Class="benchmark_sofware.App"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             StartupUri="MainWindow.xaml">
+    <Application.Resources>
+        <!-- Correct FontFamily Reference -->
+        <FontFamily x:Key="Roboto">/benchmark_sofware;component/Resources/Font/RobotoMono-Regular.ttf#RobotoMono</FontFamily>
+    </Application.Resources>
+</Application>

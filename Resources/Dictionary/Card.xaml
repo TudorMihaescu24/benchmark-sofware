@@ -1,0 +1,104 @@
+﻿<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+                    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+
+
+    <Style x:Key="BorderStyle" TargetType="Border">
+        <Setter Property="CornerRadius" Value="20,20,20,20"/>
+        <Setter Property="Background" Value="#262525"/>
+    </Style>
+   
+    <Style x:Key="ImageStyle" TargetType="Image">
+        <Setter Property="Height" Value="50"/>
+        <Setter Property="Width" Value="50"/>
+        <Setter Property="Margin" Value="25,25,25,25"/>
+    </Style>
+
+
+    <Style x:Key="TextTilteStyle" TargetType="TextBlock">
+        <Setter Property="Canvas.Left" Value="100"/>
+        <Setter Property="Canvas.Top" Value="25"/>
+        <Setter Property="HorizontalAlignment" Value="Center"/>
+        <Setter Property="VerticalAlignment" Value="Top"/>
+        <Setter Property="FontWeight" Value="Bold"/>
+        <Setter Property="Foreground" Value="#FFEBEBEB"/>
+        <Setter Property="FontSize" Value="16"/>
+        <Setter Property="FontFamily" Value="Roboto Mono"/>
+    </Style>
+
+    <Style x:Key="TextBasicValueStyle" TargetType="TextBlock">
+        <Setter Property="Canvas.Left" Value="100"/>
+        <Setter Property="Canvas.Top" Value="54"/>
+        <Setter Property="HorizontalAlignment" Value="Center"/>
+        <Setter Property="VerticalAlignment" Value="Top"/>
+        <Setter Property="Foreground" Value="#FFEBEBEB"/>
+        <Setter Property="FontSize" Value="16"/>
+        <Setter Property="FontFamily" Value="Roboto Mono"/>
+    </Style>
+
+    <Style x:Key="TextMidValueStyle" TargetType="TextBlock">
+        <Setter Property="Canvas.Left" Value="10"/>
+        <Setter Property="Canvas.Top" Value="73"/>
+        <Setter Property="Width" Value="280"/>
+        <Setter Property="TextAlignment" Value="Center"/>
+        <Setter Property="HorizontalAlignment" Value="Center"/>
+        <Setter Property="VerticalAlignment" Value="Center"/>
+        <Setter Property="Foreground" Value="#FFEBEBEB"/>
+        <Setter Property="FontSize" Value="70"/>
+        <Setter Property="FontFamily" Value="Roboto Mono"/>
+    </Style>
+
+
+    <Style x:Key="TextBigValueStyle" TargetType="TextBlock">
+        <Setter Property="Canvas.Top" Value="125"/>
+        <Setter Property="Canvas.Left" Value="10"/>
+        <Setter Property="Width" Value="280"/>
+        <Setter Property="TextAlignment" Value="Center"/>
+        <Setter Property="HorizontalAlignment" Value="Center"/>
+        <Setter Property="VerticalAlignment" Value="Center"/>
+        <Setter Property="Foreground" Value="#FFEBEBEB"/>
+        <Setter Property="FontSize" Value="100"/>
+        <Setter Property="FontFamily" Value="Roboto Mono"/>
+    </Style>
+
+    <Style x:Key="TextSimpleTitle" TargetType="TextBlock">
+        <Setter Property="Foreground" Value="#FFEBEBEB"/>
+        <Setter Property="FontSize" Value="16"/>
+        <Setter Property="FontFamily" Value="Roboto Mono"/>
+        <Setter Property="FontWeight" Value="Bold"/>
+    </Style>
+
+
+    <Style x:Key="TextSimpleValue" TargetType="TextBlock">
+        <Setter Property="Foreground" Value="#FFEBEBEB"/>
+        <Setter Property="FontSize" Value="16"/>
+        <Setter Property="FontFamily" Value="Roboto Mono"/>
+    </Style>
+
+
+    <Style x:Key="TextScoreStyle" TargetType="TextBlock">
+        <Setter Property="Canvas.Left" Value="10"/>
+        <Setter Property="Canvas.Top" Value="73"/>
+        <Setter Property="Width" Value="280"/>
+        <Setter Property="TextAlignment" Value="Center"/>
+        <Setter Property="HorizontalAlignment" Value="Center"/>
+        <Setter Property="VerticalAlignment" Value="Center"/>
+        <Setter Property="Foreground" Value="#FFEBEBEB"/>
+        <Setter Property="FontSize" Value="50"/>
+        <Setter Property="FontFamily" Value="Roboto Mono"/>
+    </Style>
+
+    <Style x:Key="TextScoreTitle" TargetType="TextBlock">
+        <Setter Property="Foreground" Value="#FFD2832D"/>
+        <Setter Property="FontSize" Value="16"/>
+        <Setter Property="FontFamily" Value="Roboto Mono"/>
+        <Setter Property="FontWeight" Value="Bold"/>
+    </Style>
+
+    <Style x:Key="TextAuxStyle" TargetType="TextBlock">
+        <Setter Property="Foreground" Value="#FFD2832D"/>
+        <Setter Property="FontSize" Value="24"/>
+        <Setter Property="FontFamily" Value="Roboto Mono"/>
+        <Setter Property="FontWeight" Value="Bold"/>
+    </Style>
+
+</ResourceDictionary>

@@ -1,0 +1,118 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net8.0-windows</TargetFramework>
+    <RootNamespace>benchmark_sofware</RootNamespace>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <UseWPF>true</UseWPF>
+    <ApplicationManifest>app.manifest</ApplicationManifest>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="Resources\Font\RobotoMono-Regular.ttf" />
+    <None Remove="Resources\Images\ic-architecture.png" />
+    <None Remove="Resources\Images\ic-cache.png" />
+    <None Remove="Resources\Images\ic-close.png" />
+    <None Remove="Resources\Images\ic-cores.png" />
+    <None Remove="Resources\Images\ic-cpu.png" />
+    <None Remove="Resources\Images\ic-frequency.png" />
+    <None Remove="Resources\Images\ic-gpu.png" />
+    <None Remove="Resources\Images\ic-minimize.png" />
+    <None Remove="Resources\Images\ic-ram.png" />
+    <None Remove="Resources\Images\ic-score.png" />
+    <None Remove="Resources\Images\ic-storage.png" />
+    <None Remove="Resources\Images\ic-temperature.png" />
+    <None Remove="Resources\Images\ic-test.png" />
+    <None Remove="Resources\Images\ic-threads.png" />
+    <None Remove="Resources\Images\ic-usage.png" />
+    <None Remove="Views\ic-architecture.png" />
+    <None Remove="Views\ic-cores.png" />
+    <None Remove="Views\ic-cpu.png" />
+    <None Remove="Views\ic-score.png" />
+    <None Remove="Views\ic-temperature.png" />
+    <None Remove="Views\ic-test.png" />
+    <None Remove="Views\ic-threads.png" />
+    <None Remove="Views\ic-usage.png" />
+    <None Remove="Views\ic-architecture.png" />
+    <None Remove="Views\ic-cpu.png" />
+    <None Remove="Views\ic-question.png" />
+    <None Remove="Resources\Dictionary\ProgressBar.xaml" />
+    <None Remove="Resources\Dictionary\Button.xaml" />
+    <None Remove="Resources\Dictionary\Card.xaml" />
+    <None Remove="Resources\Dictionary\GridLayout.xaml" />
+
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Hardware.Info" Version="101.0.0" />
+    <PackageReference Include="LibreHardwareMonitorLib" Version="0.9.4-pre358" />
+    <PackageReference Include="System.Management" Version="9.0.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Resources\Font\" />
+    <Folder Include="Tests\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="Resources\Dictionary\GridLayout.xaml" />
+    <Resource Include="Resources\Dictionary\ProgressBar.xaml" />
+    <Resource Include="Resources\Dictionary\Button.xaml" />
+    <Resource Include="Resources\Dictionary\Card.xaml" />
+    <Resource Include="Resources\Font\RobotoMono-Regular.ttf" />
+    <Resource Include="Resources\Images\ic-architecture.png" />
+    <Resource Include="Resources\Images\ic-cache.png" />
+    <Resource Include="Resources\Images\ic-close.png" />
+    <Resource Include="Resources\Images\ic-cores.png" />
+    <Resource Include="Resources\Images\ic-cpu.png" />
+    <Resource Include="Resources\Images\ic-frequency.png" />
+    <Resource Include="Resources\Images\ic-gpu.png" />
+    <Resource Include="Resources\Images\ic-minimize.png" />
+    <Resource Include="Resources\Images\ic-ram.png" />
+    <Resource Include="Resources\Images\ic-score.png" />
+    <Resource Include="Resources\Images\ic-storage.png" />
+    <Resource Include="Resources\Images\ic-temperature.png" />
+    <Resource Include="Resources\Images\ic-test.png" />
+    <Resource Include="Resources\Images\ic-threads.png" />
+    <Resource Include="Resources\Images\ic-usage.png" />
+    <Resource Include="Resources\Images\ic-question.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Update="Tests\ram-test-1.dll">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Update="Tests\ram-test-2.dll">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Update="Tests\disk-test-1.dll">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Update="Tests\disk-test-2.dll">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Update="Tests\cpu-test-1.dll">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Update="Tests\cpu-test-2.dll">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Update="Tests\gpu-test-1.dll">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Update="Tests\gpu-test-2.dll">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Update="Tests\glew32d.dll">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Update="Tests\glfw3.dll">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+  </ItemGroup>
+
+
+
+</Project>
